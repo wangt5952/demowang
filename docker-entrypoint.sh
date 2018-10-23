@@ -6,4 +6,4 @@ PROFILES_ACTIVE="dev"
 fi
 echo '环境---------------'
 echo ${PROFILES_ACTIVE}
-java -jar /root/demo-0.0.1-SNAPSHOT.jar --spring.profiles.active=${PROFILES_ACTIVE} --server.port=8080 $JAVA_OPTS
+java -jar /root/demo-1.0.jar --spring.profiles.active=${PROFILES_ACTIVE} --server.port=8080 $JAVA_OPTS

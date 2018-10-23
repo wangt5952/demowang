@@ -5,7 +5,7 @@
 
 	<groupId>com.example</groupId>
 	<artifactId>demo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<packaging>jar</packaging>
 
 	<name>demo</name>
@@ -48,7 +48,7 @@
             <plugin>
                 <groupId>com.spotify</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
-                <version>0.4.13</version>
+                <version>0.4.14</version>
                 <configuration>
                     <!-- 注意imageName一定要是符合正则[static-z0-9-_.]的，否则构建不会成功 -->
                     <imageName>${docker.image.prefix}/sys:1.0</imageName>
