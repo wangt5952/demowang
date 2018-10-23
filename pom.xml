@@ -51,7 +51,7 @@
                 <version>0.4.13</version>
                 <configuration>
                     <!-- 注意imageName一定要是符合正则[static-z0-9-_.]的，否则构建不会成功 -->
-                    <imageName>${docker.image.prefix}/wangt5952-test-sys:1.0</imageName>
+                    <imageName>${docker.image.prefix}/sys:1.0</imageName>
                     <imageTags>
                         <imageTag>${project.version}</imageTag>
                         <imageTag>latest</imageTag>
