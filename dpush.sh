@@ -3,7 +3,7 @@
 BUILD_TAG="1.0"
 REGISTRY_URL="registry.cn-qingdao.aliyuncs.com"
 NAME_SPACE="wangt5952"
-APP_NAME="sys"
+APP_NAME="official-robot-app-api"
 
 if [ "$2" != "" ];
     then
